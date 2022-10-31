@@ -2,7 +2,7 @@
     {
         "source": "Github, Heroku",
         "title": "Blog",
-        "description": "A flask based blog with users.",
+        "description": "A flask based blog with registered users.",
         "link": "https://kvvpham-blog.herokuapp.com/"
     },
     {

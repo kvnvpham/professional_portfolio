@@ -80,6 +80,10 @@ hr {
     padding: 3rem;
 }
 
+.card-col {
+    padding-bottom: 2%;
+}
+
 .contact-section {
     padding: 7% 5% 4%;
 }
