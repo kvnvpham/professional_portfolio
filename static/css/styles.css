@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navcolor {
+    background-color: #3C4048;
+    color: #EAEAEA;
+}
+
+.logo-icon {
+    color: #548CA8;
+}
+
+.introduction {
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    padding: 17% 6%;
+}
+
+.name {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h3 {
+    padding: 3% 0;
+}
+
+.section {
+    padding: 7% 5%;
+    line-height: 1.5;
+}
+
+.section-color {
+    background-color: #3C4048;
+    color: #EAEAEA;
+}
+
+h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1.2rem;
+}
+
+.profile {
+    height: 14%;
+    width: 14%;
+    padding-bottom: 1.2rem;
+}
+
+p {
+    line-height: 2;
+    font-size: 1.2rem
+}
+
+.about-description {
+    padding-bottom: 3rem;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-color: #548CA8;
+    border-width: 6px;
+    width: 3rem;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+
+.skills {
+    padding: 0 2rem;
+}
+
+.about-icons {
+    color: #548CA8;
+    font-size: 5rem;
+    padding: 3rem;
+}
+
+.contact-section {
+    padding: 7% 5% 4%;
+}
+
+.contact-icons {
+    color: #548CA8;
+    font-size: 1.2rem;
+    padding: 2%;
+}

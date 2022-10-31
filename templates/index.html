@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kevin's Portfolio</title>
+
+    <!-- CSS / Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d48c10707a.js" crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <section id="title">
+
+        <nav class="navbar navbar-expand-lg navcolor">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light" href="#"><i class="fa-solid fa-dog logo-icon"></i> Kevin Pham</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="introduction">
+                <h1 class="name">Kevin Pham</h1>
+                <h3>Software Engineer</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section section-color" id="about">
+        <div class="container-fluid">
+            <div>
+                <h2>About Me</h2>
+                <img class="profile" src="{{ url_for('static', filename='images/profile_pic.png') }}">
+                <p class="about-description">
+                    I am a healthcare professional who is in the process of transitioning towards a career in
+                    software engineering. I thoroughly enjoy programming and spending time solving all its challenges.
+                    I often find myself trying to learn something new in programming each day.
+                </p>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 skills">
+                    <i class="fa-brands fa-python about-icons"></i>
+                    <p>
+                        Python is the language I decided to start programming with. It has been very intuitive, and
+                        I love that I am able to idealize the concepts that I have imagined.
+                    </p>
+                </div>
+                <div class="col-lg-4 skills">
+                    <i class="fa-brands fa-html5 about-icons"></i>
+                    <p>HTML is another language that I learned in order to display and implement my projects.</p>
+                </div>
+                <div class="col-lg-4 skills">
+                    <i class="fa-brands fa-css3-alt about-icons"></i>
+                    <p>
+                        In order to modify and add further styling to my HTML elements, I have learned CSS
+                        and bootstrap.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="portfolio">
+
+        <div>
+            <h2>My Portfolio</h2>
+        </div>
+        <div class="container mx-auto">
+            <div class="row">
+                {% for data in projects: %}
+                <div class="col-lg-6 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            {{ data.source }}
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">{{ data.title }}</h4>
+                            <p class="card-text">{{ data.description }}</p>
+                            <a class="btn btn-secondary col-6" href="{{ data.link }}">Project</a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="contact-section section-color" id="contact">
+        <h2>Contact Me</h2>
+        <a href="mailto:kvnvpham@gmail.com"><i class="fa-solid fa-envelope contact-icons"></i></a>
+        <a href="https://github.com/kvnvpham"><i class="fa-brands fa-github contact-icons"></i></a>
+        <a href="https://www.linkedin.com/in/kvvpham"><i class="fa-brands fa-linkedin contact-icons"></i></a>
+        <a href="https://www.instagram.com/kvvpham/"><i class="fa-brands fa-instagram contact-icons"></i></a>
+        <a href="https://twitter.com/kvvpham"><i class="fa-brands fa-twitter contact-icons"></i></a>
+
+        <p class="text-muted">Copyright &copy; Kevin Pham {{ year }}</p>
+    </section>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
