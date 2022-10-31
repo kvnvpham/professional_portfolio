@@ -1,6 +1,6 @@
 [
     {
-        "source": "Heroku",
+        "source": "Github, Heroku",
         "title": "Blog",
         "description": "A flask based blog with users.",
         "link": "https://kvvpham-blog.herokuapp.com/"
