@@ -12,10 +12,16 @@
         "link": "https://github.com/kvnvpham/morse_code_converter"
     },
     {
-        "source": "Github",
+        "source": "Github, Heroku",
         "title": "Professional Portfolio",
         "description": "Flask application to display portfolio.",
         "link": "https://github.com/kvnvpham/professional_portfolio"
+    }
+    {
+        "source": "Github",
+        "title": "Tic-Tac-Toe",
+        "description": "Python scripting of 2 player Tic-Tac-Toe",
+        "link": "https://github.com/kvnvpham/tic_tac_toe"
     }
 ]
 
