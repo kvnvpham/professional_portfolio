@@ -22,6 +22,12 @@
         "title": "Tic-Tac-Toe",
         "description": "Python scripting of 2 player Tic-Tac-Toe",
         "link": "https://github.com/kvnvpham/tic_tac_toe"
+    },
+    {
+        "source": "Github",
+        "title": "Watermark Application",
+        "description": "Application to add watermark text to images",
+        "link": "https://github.com/kvnvpham/watermark_app"
     }
 ]
 
