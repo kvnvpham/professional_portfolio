@@ -28,6 +28,12 @@
         "title": "Watermark Application",
         "description": "Application to add watermark text to images",
         "link": "https://github.com/kvnvpham/watermark_app"
+    },
+    {
+        "source": "Github",
+        "title": "Typing Speed Test",
+        "description": "Tests typing speed of user with spellcheck and saves highscore",
+        "link": "https://github.com/kvnvpham/typing_speed_test"
     }
 ]
 
