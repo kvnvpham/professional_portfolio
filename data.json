@@ -46,5 +46,11 @@
         "title": "Cafe and Wifi Website",
         "description": "A website that allows visitors to add, edit, or delete a cafe to a table",
         "link": "https://github.com/kvnvpham/cafe_and_wifi_website"
+    },
+    {
+        "source": "Github",
+        "title": "To-Do List",
+        "description": "A To-Do list built with Flask for registered users.",
+        "link": "https://github.com/kvnvpham/to_do_list"
     }
 ]
