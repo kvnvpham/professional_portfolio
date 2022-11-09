@@ -2,19 +2,19 @@
     {
         "source": "Github, Heroku",
         "title": "Blog",
-        "description": "A flask based blog with registered users.",
+        "description": "A Flask based blog with registered users",
         "link": "https://kvvpham-blog.herokuapp.com/"
     },
     {
         "source": "Github",
         "title": "Morse Code Converter",
-        "description": "Encodes and decodes morse code.",
+        "description": "Encodes and decodes morse code",
         "link": "https://github.com/kvnvpham/morse_code_converter"
     },
     {
         "source": "Github, Heroku",
         "title": "Professional Portfolio",
-        "description": "Flask application to display portfolio.",
+        "description": "Flask application to display portfolio",
         "link": "https://github.com/kvnvpham/professional_portfolio"
     },
     {
@@ -32,7 +32,7 @@
     {
         "source": "Github",
         "title": "Typing Speed Test",
-        "description": "Tests typing speed of user with spellcheck and saves highscore",
+        "description": "Tests typing speed of user and saves their highest speed",
         "link": "https://github.com/kvnvpham/typing_speed_test"
     },
     {
@@ -50,7 +50,7 @@
     {
         "source": "Github",
         "title": "To-Do List",
-        "description": "A To-Do list built with Flask for registered users.",
+        "description": "A To-Do list built with Flask for registered users",
         "link": "https://github.com/kvnvpham/to_do_list"
     }
 ]
