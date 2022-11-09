@@ -52,5 +52,11 @@
         "title": "To-Do List",
         "description": "A To-Do list built with Flask for registered users",
         "link": "https://github.com/kvnvpham/to_do_list"
+    },
+    {
+        "source": "Github",
+        "title": "Writing Application",
+        "description": "A GUI that deletes all the written text if the writer stops writing for 5 seconds",
+        "link": "https://github.com/kvnvpham/writing_app"
     }
 ]
