@@ -58,5 +58,11 @@
         "title": "Writing Application",
         "description": "A GUI that deletes all the written text if the writer stops writing for 5 seconds",
         "link": "https://github.com/kvnvpham/writing_app"
+    },
+    {
+        "source": "Github",
+        "title": "Text-To-Speech PDF",
+        "description": "Reads pdf files and uses google text-to-speech to create an audio file",
+        "link": "https://github.com/kvnvpham/tts_pdf"
     }
 ]
