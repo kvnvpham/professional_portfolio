@@ -64,5 +64,11 @@
         "title": "Text-To-Speech PDF",
         "description": "Reads pdf files and uses google text-to-speech to create an audio file",
         "link": "https://github.com/kvnvpham/tts_pdf"
+    },
+    {
+        "source": "Github",
+        "title": "Image Color Palette Generator",
+        "description": "Built with Flask, a user uploads an image onto the site where the image's color palette is displayed",
+        "link": "https://github.com/kvnvpham/image_color_palette_generator"
     }
 ]
