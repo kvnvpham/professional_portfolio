@@ -76,5 +76,11 @@
         "title": "Steam Games Database",
         "description": "Scrapes a site to obtain the statistics of the top 100 games on Steam",
         "link": "https://github.com/kvnvpham/steam_games_db"
+    },
+    {
+        "source": "Github",
+        "title": "Google Dinosaur Automation",
+        "description": "Automates google dinosaur gaming using PyAutoGUI",
+        "link": "https://github.com/kvnvpham/google_dinosaur_automation"
     }
 ]
