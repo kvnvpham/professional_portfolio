@@ -82,5 +82,11 @@
         "title": "Google Dinosaur Automation",
         "description": "Automates google dinosaur gaming using PyAutoGUI",
         "link": "https://github.com/kvnvpham/google_dinosaur_automation"
+    },
+    {
+        "source": "Github",
+        "title": "Space Invaders",
+        "description": "A recreation of the classic space invaders game",
+        "link": "https://github.com/kvnvpham/space_invaders"
     }
 ]
