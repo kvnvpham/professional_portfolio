@@ -88,5 +88,11 @@
         "title": "Space Invaders",
         "description": "A recreation of the classic space invaders game",
         "link": "https://github.com/kvnvpham/space_invaders"
+    },
+    {
+        "source": "Github",
+        "title": "Stock API Website",
+        "description": "Uses requests to get stock information from an API and returns it to the user along with formatting the data into a graph",
+        "link": "https://github.com/kvnvpham/stock_api_website"
     }
 ]
