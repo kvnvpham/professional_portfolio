@@ -100,5 +100,11 @@
         "title": "eCommerce Site",
         "description": "An ecommerce website designed using Flask with functioning payment",
         "link": "https://github.com/kvnvpham/ecommerce_site"
+    },
+    {
+        "source": "Github",
+        "title": "Google Calendar Automate",
+        "description": "Reads a csv file and adds the schedule information to google calendar",
+        "link": "https://github.com/kvnvpham/google_calendar_automate"
     }
 ]
