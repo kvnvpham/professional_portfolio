@@ -118,5 +118,11 @@
         "title": "Fatal Force Data",
         "description": "Analyzes Data On Deaths From Police Events",
         "link": "https://github.com/kvnvpham/fatal_force_data"
+    },
+    {
+        "source": "Github",
+        "title": "Determinants of Earnings",
+        "description": "Analyzes data from 2011 youth survey to determine variables involved in earnings",
+        "link": "https://github.com/kvnvpham/determinants_of_earnings"
     }
 ]
