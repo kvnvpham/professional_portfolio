@@ -106,5 +106,17 @@
         "title": "Google Calendar Automate",
         "description": "Reads a csv file and adds the schedule information to google calendar",
         "link": "https://github.com/kvnvpham/google_calendar_automate"
+    },
+    {
+        "source": "Github",
+        "title": "Space Missions",
+        "description": "Analyzes the past data of space missions from various countries",
+        "link": "https://github.com/kvnvpham/space_missions"
+    },
+    {
+        "source": "Github",
+        "title": "Fatal Force Data",
+        "description": "Analyzes Data On Deaths From Police Events",
+        "link": "https://github.com/kvnvpham/fatal_force_data"
     }
 ]
